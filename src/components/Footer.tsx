@@ -125,7 +125,7 @@ const Footer: React.FC = () => {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/"
+                href="https://api.whatsapp.com/send?phone=919997690669"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition"

@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             <button
               onClick={() =>
                 window.open(
-                  "https://api.whatsapp.com/send?phone=918726774263",
+                  "https://api.whatsapp.com/send?phone=919997690669",
                   "_blank"
                 )
               }

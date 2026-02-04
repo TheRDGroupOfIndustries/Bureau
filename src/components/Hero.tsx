@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
 
               <a
                 target="_blank"
-                href="https://api.whatsapp.com/send?phone=918726774263"
+                href="https://api.whatsapp.com/send?phone=919997690669"
                 className="inline-flex items-center justify-center cursor-pointer border-2 border-primary text-primary px-8 py-4 rounded-lg text-blue-700 text-lg font-semibold hover:bg-primary hover:bg-[#1e40af] hover:text-white transition-colors whitespace-nowrap"
               >
                 Consult Now

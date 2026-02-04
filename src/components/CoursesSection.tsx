@@ -48,7 +48,7 @@ Experience: ${formData.experience}
 Goal: ${formData.goal}
 Message: ${formData.message}`;
 
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=918726774263&text=${encodeURIComponent(
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=919997690669&text=${encodeURIComponent(
       whatsappMessage
     )}`;
 
@@ -230,8 +230,8 @@ const CoursesSection: React.FC = () => {
 
           <div className="md:w-1/2">
             <Image
-              src="/Stock-Market.jpeg"
-              alt="Stock Market"
+              src="/trading-courses.png"
+              alt="Stock Market Courses"
               width={500}
               height={450}
               className="rounded-xl shadow-lg object-cover"
