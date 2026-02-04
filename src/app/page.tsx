@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 import ServicesSection from "@/components/ServicesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import WhyChooseSection from "@/components/WhyChooseSection";
-import YouTubeSection from "@/components/YouTubeSection";
+// import YouTubeSection from "@/components/YouTubeSection";
 import PhilosophySection from "@/components/OurPhilosophy";
 import Serve from "@/components/WhoWeServe";
 import Image from "@/components/Images"
@@ -21,7 +21,7 @@ export default function Home() {
       <Hero />
       <Bureau />
       {/* <About /> */}
-      <YouTubeSection />
+      {/* <YouTubeSection /> */}
       <PhilosophySection />
       <ServicesSection />
       <CoursesSection />
