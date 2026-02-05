@@ -11,6 +11,7 @@ import PhilosophySection from "@/components/OurPhilosophy";
 import Serve from "@/components/WhoWeServe";
 import Image from "@/components/Images"
 import Blogs from "@/components/Blogs";
+import FAQSection from "@/components/FAQSection";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Serve />
       <Image />
       <Blogs />
+      <FAQSection />
       <Footer />
     </div>
   );

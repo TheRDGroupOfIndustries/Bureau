@@ -31,19 +31,25 @@ const Navbar: React.FC = () => {
               About
             </Link>
             <Link
-              href="#courses"
+              href="/#blogs"
+              className="text-gray-700 hover:text-primary transition-colors"
+            >
+              Blog
+            </Link>
+            <Link
+              href="/#courses"
               className="text-gray-700 hover:text-primary transition-colors"
             >
               Courses
             </Link>
             <Link
-              href="#services"
+              href="/#services"
               className="text-gray-700 hover:text-primary transition-colors"
             >
               Our Focus
             </Link>
             <Link
-              href="#testimonials"
+              href="/#testimonials"
               className="text-gray-700 hover:text-primary transition-colors"
             >
               Reviews

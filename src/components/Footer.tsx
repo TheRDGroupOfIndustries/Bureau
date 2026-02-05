@@ -40,14 +40,17 @@ const Footer: React.FC = () => {
               <a href="/about-us" className="block text-gray-400 hover:text-white">
                 About Us
               </a>
-              <a href="#courses" className="block text-gray-400 hover:text-white">
+              <a href="/#blogs" className="block text-gray-400 hover:text-white">
+                Blog
+              </a>
+              <a href="/#courses" className="block text-gray-400 hover:text-white">
                 Courses
               </a>
-              <a href="#services" className="block text-gray-400 hover:text-white">
+              <a href="/#services" className="block text-gray-400 hover:text-white">
                 Our Focus
               </a>
               <a
-                href="#testimonials"
+                href="/#testimonials"
                 className="block text-gray-400 hover:text-white"
               >
                 Reviews

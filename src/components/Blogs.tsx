@@ -208,7 +208,7 @@ const BlogSection: React.FC = () => {
   };
 
   return (
-    <section className="py-14 px-4 max-w-7xl mx-auto">
+    <section id="blogs" className="py-14 px-4 max-w-7xl mx-auto">
       <h2 className="text-4xl font-bold text-center mb-4 text-gray-900 font-montserrat">
         Latest Blogs
       </h2>

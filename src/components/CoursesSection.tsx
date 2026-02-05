@@ -207,7 +207,7 @@ const CoursesSection: React.FC = () => {
 
   return (
     <>
-      <section className="py-20 bg-gray-50">
+      <section id="courses" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-16 items-center">
           <div className="md:w-1/2 space-y-6">
             <h2 className="text-4xl font-bold">Trading Courses</h2>
