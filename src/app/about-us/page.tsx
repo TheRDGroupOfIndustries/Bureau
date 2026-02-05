@@ -1,92 +1,105 @@
 import React from "react";
+import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import { RiCheckDoubleLine } from "react-icons/ri";
 
 export const dynamic = "force-static";
 
 export default function AboutUs() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
-      <div className="max-w-5xl mx-auto px-6">
-        <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6">
-            About Us
-          </h1>
+    <>
+      <Navbar />
+      <div className="min-h-screen bg-white pt-24 lg:pt-28 pb-16">
 
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
-            <p>
-              <strong>Stock India</strong> is a stock market consulting
-              and investment advisory firm based in Varanasi, built with a
-              simple belief — investing should be informed, disciplined, and
-              honest.
-            </p>
+        <div className="max-w-7xl mx-auto px-6">
+          {/* Main Content & Image Split */}
+          <div className="flex flex-col lg:flex-row gap-12 items-center mb-20">
+            {/* Image Section - First on mobile for visual appeal, or second. Let's generally keep text first for "About Us" reading flow, or image first for engagement. User said "like all about page", usually image is prominent. Let's put image on right for Desktop. */}
+            <div className="lg:w-1/2 order-2 lg:order-2">
+              <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-video lg:aspect-square max-h-[500px]">
+                <Image
+                  src="/why-choose-us.png" // Reusing this relevant image
+                  alt="Stock India Team and Philosophy"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </div>
 
-            <p>
-              With over <strong>5+ years of experience</strong>, we have guided
-              investors through different market cycles, helping them
-              understand risks, build structured portfolios, and make
-              confident decisions.
-            </p>
-
-            <p>
-              So far, we have guided and managed investments worth more than{" "}
-              <strong>₹50 Lakhs+</strong>, always focusing on research-backed
-              strategies rather than short-term hype.
-            </p>
-
-            <p>
-              Our approach is practical and transparent. We don’t promise
-              guaranteed returns — instead, we help investors develop clarity,
-              patience, and long-term thinking in the stock market.
-            </p>
-
-            {/* Why Choose Us */}
-            <section className="mt-10">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-6">
-                Why Choose Stock India
-              </h2>
-
-              <ul className="space-y-4">
-                <li>
-                  ✔ <strong>Proven Experience:</strong> With 5+ years in the
-                  stock market, we understand how markets behave during both
-                  bullish phases and volatility.
-                </li>
-                <li>
-                  ✔ <strong>₹50 Lakhs+ Managed:</strong> Disciplined and
-                  risk-aware handling of investor capital.
-                </li>
-                <li>
-                  ✔ <strong>90% Client Satisfaction:</strong> Our clients value
-                  honesty, clarity, and consistent guidance.
-                </li>
-                <li>
-                  ✔ <strong>Risk-Focused Approach:</strong> Capital protection
-                  is prioritized over unrealistic return expectations.
-                </li>
-                <li>
-                  ✔ <strong>Personalized Guidance:</strong> Every strategy is
-                  tailored to individual goals, risk appetite, and time
-                  horizon.
-                </li>
-                <li>
-                  ✔ <strong>Transparent & Ethical:</strong> No false promises.
-                  No guaranteed profits. Only responsible investing.
-                </li>
-              </ul>
-            </section>
-
-            {/* Commitment */}
-            <section className="mt-10 bg-gray-50 p-6 rounded-lg">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-                Our Commitment
+            {/* Text Content */}
+            <div className="lg:w-1/2 order-1 lg:order-1 space-y-6 text-lg text-gray-700 leading-relaxed">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Who We Are
               </h2>
               <p>
-                To guide investors with integrity, knowledge, and a long-term
-                vision for sustainable wealth creation.
+                <strong>Stock India</strong> is a premier stock market consulting
+                and investment advisory firm based in Varanasi. We were built on a
+                simple yet powerful belief: investing should be <strong>informed, disciplined, and honest</strong>.
               </p>
-            </section>
+              <p>
+                In an industry often clouded by noise and false promises, we stand for clarity. With over <strong>5+ years of experience</strong>, we have guided investors through various market cycles, helping them navigate volatility and build robust portfolios.
+              </p>
+              <p>
+                Our track record speaks for itself. We have successfully guided and managed investments worth more than <strong>₹50 Lakhs+</strong>, always prioritizing long-term wealth creation over short-term speculation.
+              </p>
+              <div className="bg-green-50 border-l-4 border-[#15803d] p-4 rounded-r-lg mt-6">
+                <p className="italic text-gray-800 font-medium">
+                  "We don’t promise guaranteed returns — instead, we help investors develop clarity, patience, and a winning mindset."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Why Choose Us Section - Integrated clean look */}
+          <div className="mb-20">
+            <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
+              Why Investors Trust Us
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[
+                { title: "Proven Experience", desc: "5+ years navigating bullish and bearish market cycles." },
+                { title: "₹50 Lakhs+ Managed", desc: "Disciplined and risk-aware handling of investor capital." },
+                { title: "90% Client Satisfaction", desc: "Our clients value our honesty and consistent guidance." },
+                { title: "Risk-Focused Approach", desc: "Capital protection is prioritized over unrealistic returns." },
+                { title: "Personalized Guidance", desc: "Strategies tailored to your unique financial goals and risk appetite." },
+                { title: "Transparent & Ethical", desc: "No false promises. No hidden agendas. Just responsible investing." }
+              ].map((item, index) => (
+                <div key={index} className="flex items-start gap-4 p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+                  <div className="mt-1 flex-shrink-0 text-[#15803d] text-2xl">
+                    <RiCheckDoubleLine />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
+                    <p className="text-gray-600">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Commitment Section */}
+          <div className="bg-[#15803d] rounded-3xl p-10 md:p-16 text-center text-white shadow-2xl relative overflow-hidden">
+            {/* Background decorative elements could go here */}
+            <div className="relative z-10 max-w-3xl mx-auto space-y-6">
+              <h2 className="text-3xl md:text-4xl font-bold">Our Commitment</h2>
+              <p className="text-xl md:text-2xl font-light opacity-90 leading-relaxed">
+                "To guide investors with integrity, knowledge, and a long-term vision for sustainable wealth creation."
+              </p>
+              <div className="pt-6">
+                <a
+                  href="/#contact" // Assuming contact section ID or page
+                  className="inline-block bg-white text-[#15803d] px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
+                >
+                  Get in Touch
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 }

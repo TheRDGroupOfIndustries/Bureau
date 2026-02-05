@@ -1,5 +1,4 @@
 
-// import CoursesSection from "@/components/CoursesSection";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Bureau from "@/components/StockBureau";
@@ -21,7 +20,6 @@ export default function Home() {
       <Bureau />
       <PhilosophySection />
       <ServicesSection />
-      {/* <CoursesSection /> */}
       <WhyChooseSection />
       <TestimonialsSection />
       <Serve />
