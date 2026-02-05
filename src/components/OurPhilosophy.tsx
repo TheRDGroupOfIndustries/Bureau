@@ -25,7 +25,7 @@ const PhilosophySection: React.FC = () => {
 
           <div className="border-t border-gray-200 pt-8">
             <p className="text-lg text-gray-700 text-center leading-relaxed">
-              At Stock Bureau India, we believe in{" "}
+              At Stock India, we believe in{" "}
               <span className="font-semibold text-[#1e40af]">education-led investing</span>,{" "}
               <span className="font-semibold text-[#1e40af]">realistic expectations</span>, and{" "}
               <span className="font-semibold text-[#1e40af]">consistency</span>.

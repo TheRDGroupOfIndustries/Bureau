@@ -26,7 +26,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stock Bureau India",
+  title: "Stock India",
   description: "Created by TheRDGroupOfIndustries",
   icons: {
     icon: "/nlogo.jpeg",

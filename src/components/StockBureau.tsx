@@ -12,7 +12,7 @@ const IntroSection: React.FC = () => {
           {/* Header */}
           <div className="text-center mb-10">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 font-montserrat mb-4">
-              Stock Bureau India
+              Stock India
             </h1>
             <p className="text-2xl md:text-3xl font-semibold text-[#1e40af] mb-8">
               Your Trusted Partner in Smart Investing
@@ -22,7 +22,7 @@ const IntroSection: React.FC = () => {
           {/* Description */}
           <div className="max-w-4xl mx-auto space-y-6 mb-10">
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed text-center">
-              Stock Bureau India is a stock market consulting and investment advisory company based in <span className="font-semibold text-gray-900">Varanasi</span>, helping individuals and businesses make informed, disciplined, and goal-oriented investment decisions.
+              Stock India is a stock market consulting and investment advisory company based in <span className="font-semibold text-gray-900">Varanasi</span>, helping individuals and businesses make informed, disciplined, and goal-oriented investment decisions.
             </p>
 
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed text-center">
@@ -37,10 +37,6 @@ const IntroSection: React.FC = () => {
               <span>Because investing should be <span className="text-[#1e40af]">strategic</span>, not <span className="line-through text-red-600">speculative</span>.</span>
             </p>
           </div>
-
-          
-
-         
         </div>
       </div>
     </section>

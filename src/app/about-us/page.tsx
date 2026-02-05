@@ -13,7 +13,7 @@ export default function AboutUs() {
 
           <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
             <p>
-              <strong>Stock Bureau India</strong> is a stock market consulting
+              <strong>Stock India</strong> is a stock market consulting
               and investment advisory firm based in Varanasi, built with a
               simple belief — investing should be informed, disciplined, and
               honest.
@@ -41,7 +41,7 @@ export default function AboutUs() {
             {/* Why Choose Us */}
             <section className="mt-10">
               <h2 className="text-2xl font-semibold text-gray-900 mb-6">
-                Why Choose Stock Bureau India
+                Why Choose Stock India
               </h2>
 
               <ul className="space-y-4">
