@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
                   "_blank"
                 )
               }
-              className="bg-[#1e40af] text-white px-6 py-2 rounded-lg cursor-pointer hover:bg-[#1d4ed8] transition-colors whitespace-nowrap"
+              className="bg-[#15803d] text-white px-6 py-2 rounded-lg cursor-pointer hover:bg-[#166534] transition-colors whitespace-nowrap"
             >
               Get Started
             </button>

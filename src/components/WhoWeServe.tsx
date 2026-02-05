@@ -56,14 +56,14 @@ const WhoWeServeSection: React.FC = () => {
           {audiences.map((audience, index) => (
             <div
               key={index}
-              className="bg-gray-50 rounded-xl p-6 hover:shadow-lg hover:bg-blue-50 transition-all duration-300 flex flex-col items-center text-center group"
+              className="bg-gray-50 rounded-xl p-6 hover:shadow-lg hover:bg-green-50 transition-all duration-300 flex flex-col items-center text-center group"
             >
-              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm mb-4 group-hover:bg-[#1e40af] group-hover:text-white transition-all duration-300">
-                <div className="text-[#1e40af] group-hover:text-white transition-colors">
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm mb-4 group-hover:bg-[#15803d] group-hover:text-white transition-all duration-300">
+                <div className="text-[#15803d] group-hover:text-white transition-colors">
                   {audience.icon}
                 </div>
               </div>
-              <h3 className="text-base font-semibold text-gray-900 group-hover:text-[#1e40af] transition-colors">
+              <h3 className="text-base font-semibold text-gray-900 group-hover:text-[#15803d] transition-colors">
                 {audience.title}
               </h3>
             </div>

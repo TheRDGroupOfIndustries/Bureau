@@ -5,7 +5,7 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 const PhilosophySection: React.FC = () => {
   return (
-    <section id="philosophy" className="py-20 bg-gradient-to-br from-blue-50 to-gray-50">
+    <section id="philosophy" className="py-20 bg-gradient-to-br from-green-50 to-gray-50">
       <div className="max-w-4xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">
@@ -16,9 +16,9 @@ const PhilosophySection: React.FC = () => {
 
         {/* Quote Card */}
         <div className="bg-white rounded-2xl shadow-lg p-10 md:p-12 mb-12 relative">
-          <RiDoubleQuotesL className="absolute top-6 left-6 text-5xl text-blue-100" />
-          <RiDoubleQuotesR className="absolute bottom-6 right-6 text-5xl text-blue-100" />
-          
+          <RiDoubleQuotesL className="absolute top-6 left-6 text-5xl text-green-100" />
+          <RiDoubleQuotesR className="absolute bottom-6 right-6 text-5xl text-green-100" />
+
           <p className="text-2xl md:text-3xl font-semibold text-gray-800 text-center leading-relaxed mb-8 italic">
             Successful investing is not about timing the market, but about time, discipline, and the right strategy.
           </p>
@@ -26,9 +26,9 @@ const PhilosophySection: React.FC = () => {
           <div className="border-t border-gray-200 pt-8">
             <p className="text-lg text-gray-700 text-center leading-relaxed">
               At Stock India, we believe in{" "}
-              <span className="font-semibold text-[#1e40af]">education-led investing</span>,{" "}
-              <span className="font-semibold text-[#1e40af]">realistic expectations</span>, and{" "}
-              <span className="font-semibold text-[#1e40af]">consistency</span>.
+              <span className="font-semibold text-[#15803d]">education-led investing</span>,{" "}
+              <span className="font-semibold text-[#15803d]">realistic expectations</span>, and{" "}
+              <span className="font-semibold text-[#15803d]">consistency</span>.
             </p>
           </div>
         </div>

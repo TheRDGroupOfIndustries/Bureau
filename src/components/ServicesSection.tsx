@@ -21,31 +21,31 @@ const services: Service[] = [
     title: "Stock Market Consulting",
     description:
       "Professional guidance for equity market participation based on market analysis, trends, and individual risk profiles.",
-    icon: <RiLineChartLine className="text-primary text-3xl" />,
+    icon: <RiLineChartLine className="text-[#15803d] text-3xl" />,
   },
   {
     title: "Investment Advisory",
     description:
       "Tailored investment strategies aligned with your financial goals — short-term, medium-term, or long-term.",
-    icon: <RiLightbulbLine className="text-primary text-3xl" />,
+    icon: <RiLightbulbLine className="text-[#15803d] text-3xl" />,
   },
   {
     title: "Portfolio Review & Optimization",
     description:
       "Detailed evaluation of existing portfolios to improve performance, manage risk, and rebalance effectively.",
-    icon: <RiPieChartLine className="text-primary text-3xl" />,
+    icon: <RiPieChartLine className="text-[#15803d] text-3xl" />,
   },
   {
     title: "Market Research & Analysis",
     description:
       "Technical and fundamental analysis to support informed investment decisions.",
-    icon: <RiSearchLine className="text-primary text-3xl" />,
+    icon: <RiSearchLine className="text-[#15803d] text-3xl" />,
   },
   {
     title: "Risk Management Guidance",
     description:
       "Helping investors understand and manage market volatility with structured approaches.",
-    icon: <RiShieldCheckLine className="text-primary text-3xl" />,
+    icon: <RiShieldCheckLine className="text-[#15803d] text-3xl" />,
   },
 ];
 
@@ -72,7 +72,7 @@ const ServicesSection: React.FC = () => {
             >
               <div className="flex items-start gap-6">
                 <div className="w-14 h-14 bg-white rounded-md flex items-center justify-center shadow-sm">
-                  <div className="text-[#1e40af] text-2xl">
+                  <div className="text-[#15803d] text-2xl">
                     {service.icon}
                   </div>
                 </div>

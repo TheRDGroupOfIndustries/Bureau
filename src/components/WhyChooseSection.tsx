@@ -189,7 +189,7 @@ Message: ${formData.message}`;
 
           <button
             type="submit"
-            className="w-full bg-[#1e40af] text-white py-4 rounded-lg font-semibold hover:bg-[#1d4ed8]"
+            className="w-full bg-[#15803d] text-white py-4 rounded-lg font-semibold hover:bg-[#166534]"
           >
             Continue on WhatsApp
           </button>
@@ -249,7 +249,7 @@ const WhyChooseSection: React.FC = () => {
               <div className="mt-10">
                 <button
                   onClick={() => setOpen(true)}
-                  className="bg-[#1e40af] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#1d4ed8] shadow-lg hover:scale-105 active:scale-95 transition"
+                  className="bg-[#15803d] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#166534] shadow-lg hover:scale-105 active:scale-95 transition"
                 >
                   Contact Us
                 </button>

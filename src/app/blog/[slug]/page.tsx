@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiArrowLeftLine } from "react-icons/ri";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 interface PageProps {
@@ -22,12 +23,13 @@ export default async function BlogPage({ params }: PageProps) {
 
     return (
         <>
-            <article className="min-h-screen bg-gray-50 lg:pt-10 pt-5 pb-16">
+            <Navbar />
+            <article className="min-h-screen bg-gray-50 pt-24 lg:pt-28 pb-16">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Back Link */}
                     <Link
                         href="/#blogs"
-                        className="inline-flex items-center text-blue-800 hover:text-blue-900 font-medium mb-8 transition-colors"
+                        className="inline-flex items-center text-[#15803d] hover:text-[#166534] font-medium mb-8 transition-colors"
                     >
                         <RiArrowLeftLine className="mr-2" /> Back to Blogs
                     </Link>
@@ -50,7 +52,7 @@ export default async function BlogPage({ params }: PageProps) {
                                 {blog.title}
                             </h1>
 
-                            <p className="text-xl text-gray-700 mb-10 leading-relaxed border-l-4 border-blue-600 pl-6 italic">
+                            <p className="text-xl text-gray-700 mb-10 leading-relaxed border-l-4 border-[#15803d] pl-6 italic">
                                 {blog.content.intro}
                             </p>
 
@@ -73,7 +75,7 @@ export default async function BlogPage({ params }: PageProps) {
                                             <ul className="grid gap-3 mt-4 bg-gray-50 p-6 rounded-xl border border-gray-100">
                                                 {section.points.map((point, idx) => (
                                                     <li key={idx} className="flex items-start gap-3">
-                                                        <span className="text-blue-600 mt-1.5 flex-shrink-0 text-xl">
+                                                        <span className="text-[#15803d] mt-1.5 flex-shrink-0 text-xl">
                                                             •
                                                         </span>
                                                         <span className="text-gray-700 text-lg">{point}</span>

@@ -14,7 +14,7 @@ const IntroSection: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 font-montserrat mb-4">
               Stock India
             </h1>
-            <p className="text-2xl md:text-3xl font-semibold text-[#1e40af] mb-8">
+            <p className="text-2xl md:text-3xl font-semibold text-[#15803d] mb-8">
               Your Trusted Partner in Smart Investing
             </p>
           </div>
@@ -26,15 +26,15 @@ const IntroSection: React.FC = () => {
             </p>
 
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed text-center">
-              We focus on <span className="font-semibold text-[#1e40af]">research-backed strategies</span>, <span className="font-semibold text-[#1e40af]">risk management</span>, and <span className="font-semibold text-[#1e40af]">long-term wealth creation</span>.
+              We focus on <span className="font-semibold text-[#15803d]">research-backed strategies</span>, <span className="font-semibold text-[#15803d]">risk management</span>, and <span className="font-semibold text-[#15803d]">long-term wealth creation</span>.
             </p>
           </div>
 
           {/* Highlighted Statement */}
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-[#1e40af] rounded-xl p-6 md:p-8 max-w-3xl mx-auto mb-12">
+          <div className="bg-gradient-to-r from-green-50 to-emerald-50 border-l-4 border-[#15803d] rounded-xl p-6 md:p-8 max-w-3xl mx-auto mb-12">
             <p className="text-xl md:text-2xl font-semibold text-gray-900 text-center flex items-center justify-center flex-wrap">
               <span className="mr-3 text-3xl">👉</span>
-              <span>Because investing should be <span className="text-[#1e40af]">strategic</span>, not <span className="line-through text-red-600">speculative</span>.</span>
+              <span>Because investing should be <span className="text-[#15803d]">strategic</span>, not <span className="line-through text-red-600">speculative</span>.</span>
             </p>
           </div>
         </div>

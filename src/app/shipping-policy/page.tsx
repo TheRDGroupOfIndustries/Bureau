@@ -29,9 +29,9 @@ export default function ShippingPolicy() {
               <p>
                 Orders are shipped within 1-2 days or as per the delivery date agreed at the time of order confirmation and delivering of the shipment subject to Courier Company / post office norms.
               </p>
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mt-4">
-                <p className="font-semibold text-blue-900">Important Note:</p>
-                <p className="text-blue-800 mt-2">
+              <div className="bg-green-50 border-l-4 border-[#15803d] p-4 mt-4">
+                <p className="font-semibold text-green-900">Important Note:</p>
+                <p className="text-green-800 mt-2">
                   SHUBHAM GUPTA is not liable for any delay in delivery by the courier company / postal authorities and only guarantees to hand over the consignment to the courier company or postal authorities within 1-2 days from the date of the order and payment or as per the delivery date agreed at the time of order confirmation.
                 </p>
               </div>
@@ -50,8 +50,8 @@ export default function ShippingPolicy() {
                 For any issues in utilizing our services, you may contact our helpdesk:
               </p>
               <div className="space-y-2">
-                <p><strong>Phone:</strong> <a href="tel:8726774263" className="text-blue-600 hover:underline">8726774263</a></p>
-                <p><strong>Email:</strong> <a href="mailto:benzzztrading@gmail.com" className="text-blue-600 hover:underline">benzzztrading@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:8726774263" className="text-[#15803d] hover:underline">8726774263</a></p>
+                <p><strong>Email:</strong> <a href="mailto:benzzztrading@gmail.com" className="text-[#15803d] hover:underline">benzzztrading@gmail.com</a></p>
               </div>
             </section>
           </div>

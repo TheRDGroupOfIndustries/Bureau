@@ -46,7 +46,7 @@ const BlogSection: React.FC = () => {
               <div className="mt-auto">
                 <Link
                   href={`/blog/${blog.slug}`}
-                  className="text-blue-700 font-bold hover:text-blue-900 flex items-center gap-2 group/btn transition-colors"
+                  className="text-[#15803d] font-bold hover:text-[#166534] flex items-center gap-2 group/btn transition-colors"
                 >
                   Read more
                   <RiArrowRightLine className="group-hover/btn:translate-x-1 transition-transform" />

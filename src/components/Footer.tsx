@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="text-2xl font-bold text-[#1e40af] font-montserrat">
+              <div className="text-2xl font-bold text-[#15803d] font-montserrat">
                 Stock
               </div>
               <div className="text-2xl font-bold text-gray-300 font-montserrat">
@@ -121,7 +121,7 @@ const Footer: React.FC = () => {
                 href="https://t.me/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-500 transition"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#15803d] transition"
               >
                 <FaTelegramPlane className="w-5 h-5" />
               </a>
@@ -141,7 +141,7 @@ const Footer: React.FC = () => {
                 href="https://www.facebook.com/stockbureauindia"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#15803d] transition"
               >
                 <FaFacebookF className="w-5 h-5" />
               </a>
@@ -161,7 +161,7 @@ const Footer: React.FC = () => {
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-700 transition"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#15803d] transition"
               >
                 <FaLinkedinIn className="w-5 h-5" />
               </a>

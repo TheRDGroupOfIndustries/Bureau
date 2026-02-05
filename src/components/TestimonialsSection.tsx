@@ -120,11 +120,10 @@ const TestimonialsSection: React.FC = () => {
             <button
               key={i}
               onClick={() => setCurrentIndex(i)}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                i === currentIndex
-                  ? "bg-[#2255d3] scale-125"
+              className={`w-3 h-3 rounded-full transition-all duration-300 ${i === currentIndex
+                  ? "bg-[#15803d] scale-125"
                   : "bg-gray-300 hover:bg-gray-400"
-              }`}
+                }`}
             />
           ))}
         </div>

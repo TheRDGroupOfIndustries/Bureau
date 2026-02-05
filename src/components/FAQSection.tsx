@@ -63,7 +63,7 @@ const FAQSection: React.FC = () => {
                                 <span className="text-lg font-semibold text-gray-900">
                                     {faq.question}
                                 </span>
-                                <span className="text-[#1e40af] text-2xl flex-shrink-0 ml-4">
+                                <span className="text-[#15803d] text-2xl flex-shrink-0 ml-4">
                                     {openIndex === index ? (
                                         <RiArrowUpSLine />
                                     ) : (
@@ -74,8 +74,8 @@ const FAQSection: React.FC = () => {
 
                             <div
                                 className={`transition-all duration-300 ease-in-out ${openIndex === index
-                                        ? "max-h-96 opacity-100"
-                                        : "max-h-0 opacity-0"
+                                    ? "max-h-96 opacity-100"
+                                    : "max-h-0 opacity-0"
                                     }`}
                             >
                                 <div className="p-6 pt-0 text-gray-700 leading-relaxed border-t border-gray-50">
