@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
               >
                 Disclaimer
               </a>
-              <a href="/faqs" className="block text-gray-400 hover:text-white">
+              <a href="/#faqs" className="block text-gray-400 hover:text-white">
                 FAQs
               </a>
             </div>

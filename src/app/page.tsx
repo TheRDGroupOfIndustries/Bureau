@@ -21,8 +21,8 @@ export default function Home() {
       <PhilosophySection />
       <ServicesSection />
       <WhyChooseSection />
-      <TestimonialsSection />
       <Serve />
+      <TestimonialsSection />
       <Image />
       <Blogs />
       <FAQSection />
