@@ -21,7 +21,7 @@ export const blogs: Blog[] = [
         description:
             "Stock market kya hota hai, kaise kaam karta hai aur beginners ke liye ye long-term wealth kaise banata hai – simple language me samjhein.",
         slug: "stock-market-basics-for-beginners",
-        image: "/Stock-Market.jpeg",
+        image: "/images/stock-market-basics.png",
         content: {
             intro:
                 "If you are new to investing, the stock market may seem confusing at first. However, once you understand the basics, it becomes a powerful tool for long-term wealth creation.",
@@ -58,7 +58,7 @@ export const blogs: Blog[] = [
         description:
             "India me stock market investing shuru karne ka complete step-by-step guide – Demat account se lekar long-term thinking tak.",
         slug: "start-investing-stock-market-india",
-        image: "/trading-courses.png",
+        image: "/images/start-investing-india.png",
         content: {
             intro:
                 "Starting your stock market journey in India is simpler than most people think.",

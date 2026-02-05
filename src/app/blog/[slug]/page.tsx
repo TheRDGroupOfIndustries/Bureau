@@ -40,7 +40,7 @@ export default async function BlogPage({ params }: PageProps) {
                                 src={blog.image}
                                 alt={blog.title}
                                 fill
-                                className="object-cover"
+                                className="object-contain"
                                 priority
                             />
                         </div>
