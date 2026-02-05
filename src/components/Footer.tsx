@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 import {
   FaInstagram,
   FaTelegramPlane,
@@ -20,12 +22,15 @@ const Footer: React.FC = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="text-2xl font-bold text-[#15803d] font-montserrat">
-                Stock Bureau
-              </div>
-              <div className="text-2xl font-bold text-gray-300 font-montserrat">
-                India
-              </div>
+              <Link href="/">
+                <Image
+                  width={210}
+                  height={60}
+                  src="/nlogo.jpeg"
+                  alt="Stock Bureau India"
+                  className="h-10 w-auto sm:h-12 md:h-14"
+                />
+              </Link>
             </div>
             <p className="text-gray-400">
               Empowering traders with knowledge, strategies, and confidence to
