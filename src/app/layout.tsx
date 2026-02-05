@@ -27,7 +27,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Stock Bureau India",
-  description: "Created by TheRDGroupOfIndustries",
+  description: "Stock Bureau India is a stock market consulting and investment advisory company based in Varanasi",
   icons: {
     icon: "/nlogo.jpeg",
   },
