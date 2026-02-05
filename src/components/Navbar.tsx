@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
               }
               className="bg-[#15803d] text-white px-6 py-2 rounded-lg cursor-pointer hover:bg-[#166534] transition-colors whitespace-nowrap"
             >
-              Get Started
+              Contact Us
             </button>
           </div>
         </div>
