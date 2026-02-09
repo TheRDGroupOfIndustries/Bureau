@@ -34,23 +34,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Contact Us
-
-- **Address**: Dawarka Mor, Near Mor Metro Station, Delhi, 110078.
-- **Phone**: +91 63940 16514, 7084343907
-- **Email**: optionsstock181@gmail.com
-
-## Social Media
-
-Stay connected with us:
-- [YouTube](https://www.youtube.com/@StockBureauIndia)
-- [Instagram](https://www.instagram.com/stockbureauindia/)
-- [Telegram](https://t.me/)
-- [WhatsApp](https://api.whatsapp.com/send?phone=916394016514)
-- [Facebook](https://www.facebook.com/stockbureauindia)
-
-## Developed By
-
-**SkyTouch Media**  
-Contact: +91-8303777132
