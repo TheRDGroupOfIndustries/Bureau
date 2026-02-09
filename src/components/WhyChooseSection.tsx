@@ -37,7 +37,7 @@ const WhyChooseSection: React.FC = () => {
             </h3>
 
             <div className="text-gray-700 space-y-4 text-lg">
-              <p>📍 <strong>Based in Varanasi</strong>, serving investors across India.</p>
+              <p>📍 <strong>Based in Delhi</strong>, serving investors across India.</p>
               <p>📑 <strong>Research-backed & data-driven approach</strong>.</p>
               <p>👥 <strong>Personalized consulting</strong>, not generic tips.</p>
               <p>🔒 <strong>Strong focus on risk control</strong>.</p>

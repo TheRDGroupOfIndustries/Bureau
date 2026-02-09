@@ -15,7 +15,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     name: "Rahul Mishra",
-    role: "Varanasi",
+    role: "Delhi",
     image: "/testimonials/1.jpg",
     feedback:
       "Before coming to Stock Bureau India, the stock market felt confusing. They explained things in a simple way and focused more on managing risk than making false promises. That really built my trust.",

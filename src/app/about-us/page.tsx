@@ -35,7 +35,7 @@ export default function AboutUs() {
               </h2>
               <p>
                 <strong>Stock Bureau India</strong> is a premier stock market consulting
-                and investment advisory firm based in Varanasi. We were built on a
+                and investment advisory firm based in Delhi. We were built on a
                 simple yet powerful belief: investing should be <strong>informed, disciplined, and honest</strong>.
               </p>
               <p>

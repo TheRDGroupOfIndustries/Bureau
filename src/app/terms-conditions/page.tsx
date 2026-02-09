@@ -176,7 +176,7 @@ export default function TermsConditions() {
               <p>
                 These Terms & Conditions are governed by the laws of India. All
                 disputes shall fall under the jurisdiction of courts in
-                Varanasi, Uttar Pradesh.
+                Delhi, India.
               </p>
             </section>
 

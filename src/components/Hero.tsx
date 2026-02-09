@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
               </h1>
 
               <p className="text-xl text-gray-600 leading-relaxed">
-                Stock Bureau India is a stock market consulting and investment advisory company based in Varanasi, helping individuals and businesses make informed, disciplined, and goal-oriented investment decisions.
+                Stock Bureau India is a stock market consulting and investment advisory company based in Delhi, helping individuals and businesses make informed, disciplined, and goal-oriented investment decisions.
               </p>
             </div>
 
