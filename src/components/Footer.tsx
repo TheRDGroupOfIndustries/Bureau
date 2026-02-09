@@ -36,6 +36,7 @@ const Footer: React.FC = () => {
               Empowering traders with knowledge, strategies, and confidence to
               succeed in financial markets.
             </p>
+            <p>Address: Dawarka Mor, Near Mor Metro Station, Delhi, 110078.</p>
           </div>
 
           {/* Quick Links */}
