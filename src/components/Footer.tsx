@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
             <div className="flex flex-wrap gap-4">
               {/* YouTube */}
               <a
-                href="https://www.youtube.com/"
+                href="https://www.youtube.com/@StockBureauIndia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-600 transition"
@@ -114,7 +114,7 @@ const Footer: React.FC = () => {
 
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/stockbureauindia/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-pink-600 transition"
@@ -134,7 +134,7 @@ const Footer: React.FC = () => {
 
               {/* WhatsApp */}
               <a
-                href="https://api.whatsapp.com/send?phone=919997690669"
+                href="https://api.whatsapp.com/send?phone=916394016514"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition"
@@ -181,10 +181,10 @@ const Footer: React.FC = () => {
           <p>
             Developed by{" "}
             <a
-              href="tel:+916394016514"
+              href="tel:+918303777132"
               className="text-gray-300 hover:text-white font-medium"
             >
-              SkyTouch Media (+91-6394016514)
+              SkyTouch Media (+91-8303777132)
             </a>
           </p>
         </div>
